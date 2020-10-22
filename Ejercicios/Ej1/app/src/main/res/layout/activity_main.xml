@@ -14,32 +14,57 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ir a TableLayout"
+            />
         <ImageButton android:id="@+id/boton1"
             android:src="@drawable/azul_flechablancaderecha"
             android:layout_width="100dp"
         android:layout_height="100dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ir a GridLayOut"
+                />
         <ImageButton android:id="@+id/boton2"
             android:src="@drawable/azul_flechablancaderecha"
             android:layout_width="100dp"
             android:layout_height="100dp"/>
+        </LinearLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    <ImageButton android:id="@+id/boton3"
-        android:src="@drawable/azul_flechablancaderecha"
-        android:layout_width="100dp"
-        android:layout_height="100dp"/>
-    <ImageButton android:id="@+id/boton4"
-        android:src="@drawable/azul_flechablancaderecha"
-        android:layout_width="100dp"
-        android:layout_height="100dp"/>
-    </LinearLayout>
-    <TextView
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Esta compuesto de un LinearLayOut y para hacer los botones de 2 en 2 hay 2 linearLayout dentro de este primero"
-        />
-
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ir a TableLayout"
+                />
+            <ImageButton android:id="@+id/boton3"
+                android:src="@drawable/azul_flechablancaderecha"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
